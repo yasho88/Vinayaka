@@ -1,0 +1,58 @@
+<div ng-app="vinayakApp" ng-controller="ContactCtrl">
+<div class="container contact-page animated fadeInDown">
+     <h1 id="header">Get In Touch</h1>
+    <div class="row">
+        <div class="col-md-6 contact-customloginColumns-form">
+            <div class="form-style">
+                <div>
+                    <h1 class="contact-font-header">Send me a message</h1>
+                </div>
+                <hr/>
+               <div class="box-content">
+                    <form method="post" ng-submit="submit()">
+                       <div class="form-row">
+                        <div class="form-group col-md-6">
+                             <label for="name"class="col-form-label">Name</label>
+                             <input type="text" placeholder="John Doe" class="form-control box-line" id ="name" required="" ng-maxlength="30">
+                                <p ng-hide="!myForm.myInput.$valid">The value is not valid.</p>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" placeholder="johndoe@email.com" class="form-control box-line" id ="email">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for = "message" class="col-form-label">Message</label>
+                            <textarea rows="2" cols="3"placeholder="Hi, I love your book because!!!" class="form-control box-line" id ="message"></textarea>
+                        </div>
+                        <div class="form-group row">
+                            <div class="sbt-btn col-md-9 col-md-offset-7">
+                                <button class="btn btn-primary btn-sm" value="submit" type="submit">Submit</button>
+                            </div>
+                        </div>
+                     </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 contact-info contact-customloginColumns-info">
+            <div class ="info-style">
+                <div>
+                    <h1 class="contact-font-header" style="color:aliceblue;">Contact me</h1>
+                </div>
+                <hr/>
+                <div>
+                    <p><i class="fa fa-envelope fa-lg"></i>&nbsp moorthivinayak@gmail.com</p>
+                </div>
+                <div>
+                    <p><i class="fa fa-phone-square fa-lg"></i>&nbsp +91 8281273697</p>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/vinayaka.moorthi.18" target="_blank" style="font-size:48px;color:#4267b2" class="fa fa-facebook fa-lg">&nbsp&nbsp</a>
+                    <a href="https://twitter.com/vin9894056810" target="_blank" style="font-size:48px;color:#1DA1F2" class="fa fa-twitter fa-lg"></a>
+                </div>
+            </div>        
+        </div>        
+    </div>
+</div> 
+</div>
+</div>

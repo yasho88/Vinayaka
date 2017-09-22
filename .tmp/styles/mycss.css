@@ -1,0 +1,269 @@
+ .main-page {
+  background-repeat: no-repeat;
+background-size: cover;
+background-image: url('/images/keralapic3.png');
+   left: 0;
+   margin: 0;
+   min-height: 100%;
+   padding: 12%;
+   top: 0;
+   min-width: 100%;
+   z-index: -1;
+    }
+    .main-head{
+        color: #010101;
+        font-size: 4rem;
+        font-weight: 500;
+       padding-top: 10px;
+        text-align: center;
+    }
+    .main-text{
+        color: #010101;
+        font-size: 2rem;
+        font-weight: 500;
+        padding-bottom: 30%;
+        text-align: center;
+    }
+    .bg-black{
+ background-color: #010101;
+    }
+    .about-page{
+     font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.2em;
+      color: aliceblue;
+    }
+    .about-head{
+        font-family: 'Lobster Two', cursive;
+        color: #010101;
+        font-size: 4rem;
+        font-weight: 500;
+       padding-top: 100px;
+       padding-left: 20px;
+        
+    }
+ .about-text{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.3em;
+    padding: 1em;
+    color: aliceblue;
+    }
+    .about-img{
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('/images/VinaFinal.JPG');
+   left: 0;
+   margin-top: 12%;
+   height: 500px;
+   padding: 0;
+   position: absolute;
+   top: 0;
+   min-width: 100%;
+    }
+ .books-page{
+  background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #eaf2ed;
+   left: 0;
+   margin: 0;
+   min-height: 100%;
+   padding: 0;
+   position: absolute;
+   top: 0;
+   min-width: 100%;
+   z-index: -1;
+ } 
+    .rounded{
+    border-radius: 6px;    
+    }
+    .bg-color{
+                background-color: #000000;
+    }
+    
+    .pdt-images{
+
+        max-height: 100%;
+        max-width: 100%;
+        padding-top: 15px;
+
+    }
+    .book-bg{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .font-type{
+        font-family: 'Roboto', sans-serif;
+    }
+    #locator { position: absolute; visibility: visible; left: 50px; top: 300px; z-index: 200; }
+    
+    
+    .recomend-text{
+    font-family: 'Lobster Two', cursive;
+    }
+  
+  .font-c{
+      color: aliceblue;
+  }
+  .font-bl{
+      color: #000000;
+  }
+   
+    .home-text{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.4em;
+    padding: 1em;
+    color: aliceblue;
+    }
+    .rotate90 {
+
+    transform: rotate(270deg);
+    }
+
+    .box-size{
+        margin-left: 100px;
+        height: 100%;
+        width: 90%;
+        margin-top: 30%;
+    }
+    .wrapper { height: 500px; margin-top: 12%; }
+    .nopadding { padding: 0; }
+    .wp3 { background: url('/images/vina.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+
+    .iphone { width: 100%; background: #f3f5f8; float: left; height: 100%;  }
+
+.fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
+.responsive-services { position: relative; }
+.fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
+.responsive-services { position: relative; }
+.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+#servicesSlider { margin-top: 70px; }
+ul.slides li { margin-bottom: 20px; }
+    
+
+
+ .contact-page{
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('/images/contactpic2.jpeg');
+   min-height: 100%;
+   min-width: 100%;
+   padding: 0;
+   top: 0;
+   min-width: 100%;
+   z-index: -1;
+    }
+
+ .contact-customloginColumns-form{
+        max-width: 600px;
+         margin-bottom: 10%;
+        padding: 200px 0px 20px 100px;
+
+    }
+     .contact-customloginColumns-info{
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 200px 20px 20px 0px;
+
+    }
+.contact-info{
+   font-size: 1.2em;
+   color:aliceblue;
+   text-align: center;
+   min-height: 200px;
+   
+}
+.info-style{
+    background-color:#000;
+    padding: 20px 0px 186px 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+.form-style{
+    background-color: white;    
+    padding: 20px 25px 0px 25px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;  
+}
+
+form{
+    padding-bottom: 1px;
+}
+.mg-line{
+     border: 1px solid black;
+padding: 5px 5px 5px 20px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+
+.sbt-btn{
+    padding: -10px 10px -20px 25px;
+}
+#header
+{ font-size: 4em;
+color: aliceblue;
+margin-bottom: -5%;
+padding: 100px 0px 0px 80px;}
+
+.contact-font-header{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 0;
+}
+
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/w3images/parallax1.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+#about-img{
+
+padding: 0;
+}
+footer{
+    padding: 20px;
+}
+.box-line{
+    border: 1px solid black;
+float: left;
+margin: 0;
+padding: 0;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+
+a:hover { 
+    background-color: yellow;
+}

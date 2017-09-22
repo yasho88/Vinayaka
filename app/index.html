@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/css/landio.css">
+    <link rel="stylesheet" href="styles/mycss.css">
+    <link href="styles/inspinia/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Cuprum|Dancing+Script|Josefin+Sans|Lobster+Two|Roboto|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Custom -->
+    <link href="styles/inspinia/css/style.css" rel="stylesheet">
+    <link href="styles/inspinia/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link href="styles/inspinia.css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/inspinia.css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="vinayakApp">
+    
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container">
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse navbar-fixed-top" id="navbarNavDropdown">
+     <ul class="nav navbar-nav navbar-left">
+              <li><a class="page-scroll" style="color: #000000;" ng-href="#/">Home</a></li>
+              <li><a class="page-scroll" style="color: #000000;" ng-href="#/about">About</a></li>
+              <li><a class="page-scroll" style="color: #000000;" ng-href="#/books">Books</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="page-scroll" style="color: #000000;" ng-href="#/blogs">Blogs</a></li>
+              <li><a class="page-scroll" style="color: #000000;" ng-href="#/recommendation">My recommendation</a></li>
+              <li><a class="page-scroll" style="color: #000000;" ng-href="#/contact">Get in touch</a></li>
+              <li>&nbsp &nbsp</li>
+            </ul>
+  </div>
+</nav>
+</div>
+
+    <div ng-view="">    
+    </div>
+<footer style="background-color: #f3f3f4;">
+
+  <div class= " container row">
+      <div class="col-md-4">
+          <div>
+              <a class="page-scroll" ng-href="#/">Home</a>
+          </div>
+          <div>
+              <a class="page-scroll" ng-href="#/about">About</a>
+          </div>
+          <div>
+              <a class="page-scroll" ng-href="#/books">Books</a>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div>
+              <a class="page-scroll" ng-href="#/blogs">Blogs</a>
+          </div>
+          <div>
+              <a class="page-scroll" ng-href="#/recommendation">My recommendation</a>
+          </div>
+          <div>
+              <a class="page-scroll" ng-href="#/contact">Get in touch</a>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div>
+              <p><i class="fa fa-envelope fa-lg"></i>&nbsp moorthivinayak@gmail.com</p>
+          </div>
+          <div>
+              <p><i class="fa fa-phone-square fa-lg"></i>&nbsp +91 8281273697</p>
+          </div>
+          <div>
+              <a href="https://www.facebook.com/vinayaka.moorthi.18" target="_blank"class="fa fa-facebook fa-lg">&nbsp&nbsp</a>
+              <a href="https://twitter.com/vin9894056810" target="_blank"class="fa fa-twitter fa-lg"></a>
+          </div>
+       </div>
+   </div>        
+</footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/blogs.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+         <script src="styles/inspinia/js/jquery-2.1.1.js"></script>
+    <script src="styles/inspinia/js/bootstrap.min.js"></script>
+    <script src="styles/inspinia/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="styles/inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="styles/inspinia/js/inspinia.js"></script>
+    <script src="styles/inspinia/js/plugins/pace/pace.min.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
