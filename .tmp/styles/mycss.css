@@ -1,7 +1,7 @@
  .main-page {
   background-repeat: no-repeat;
 background-size: cover;
-background-image: url('/images/keralapic3.png');
+background-image: url('/images/vinanice2.jpg');
    left: 0;
    margin: 0;
    min-height: 100%;
@@ -11,18 +11,18 @@ background-image: url('/images/keralapic3.png');
    z-index: -1;
     }
     .main-head{
-        color: #010101;
+        color: #d8ffe1;
         font-size: 4rem;
         font-weight: 500;
        padding-top: 10px;
-        text-align: center;
+       font-family: 'Comfortaa', cursive;
     }
     .main-text{
-        color: #010101;
+        color: #d8ffe1;
         font-size: 2rem;
         font-weight: 500;
         padding-bottom: 30%;
-        text-align: center;
+        font-family: 'Comfortaa', cursive;
     }
     .bg-black{
  background-color: #010101;
@@ -97,7 +97,7 @@ background-image: url('/images/VinaFinal.JPG');
     
     
     .recomend-text{
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     }
   
   .font-c{
@@ -106,13 +106,6 @@ background-image: url('/images/VinaFinal.JPG');
   .font-bl{
       color: #000000;
   }
-   
-    .home-text{
-    font-family: 'Lobster Two', cursive;
-    font-size: 1.4em;
-    padding: 1em;
-    color: aliceblue;
-    }
     .rotate90 {
 
     transform: rotate(270deg);
@@ -274,4 +267,8 @@ a:hover {
 .error-highlighter {
      color: red;
      font-size: 10px;
+}
+
+.blogs-page{
+    font-family: 'Josefin Sans', sans-serif;
 }
