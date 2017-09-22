@@ -9,20 +9,35 @@
                 </div>
                 <hr/>
                <div class="box-content">
-                    <form method="post" ng-submit="submit()">
+                    <form name="form" method="post" ng-submit="submit()">
                        <div class="form-row">
                         <div class="form-group col-md-6">
                              <label for="name"class="col-form-label">Name</label>
-                             <input type="text" placeholder="John Doe" class="form-control box-line" id ="name" required="" ng-maxlength="30">
-                                <p ng-hide="!myForm.myInput.$valid">The value is not valid.</p>
+                             <input type="text" placeholder="John Doe" class="form-control box-line" id ="name" name = "name" ng-required='user.name.required' ng-model="name" ng-minlength='{{user.name.minlength}}' ng-maxlength="{{user.name.maxlength}}">
+                                <span class = "error-highlighter" ng-show="form.name.$dirty && form.name.$error.required">Name is required!</span>
+                                <div>
+                                    <span class = "error-highlighter" ng-show="form.name.$error.minlength">Name has to be at least 5 characters</span>
+                                </div>
+                                 <div>
+                                      <span class = "error-highlighter" ng-show="form.name.$error.maxlength">Name cannot exceed 25 characters</span>
+                                 </div>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="email" class="col-form-label">Email</label>
-                            <input type="email" placeholder="johndoe@email.com" class="form-control box-line" id ="email">
+                            <input type="email" placeholder="johndoe@email.com" name = "email" ng-required = 'user.email.required' ng-model="email" class="form-control box-line" id ="email">
+                            <span class = "error-highlighter" ng-show="form.email.$dirty && form.email.$error.required">Please enter your email Id!</span>
                         </div>
                         <div class="form-group col-md-12">
                             <label for = "message" class="col-form-label">Message</label>
-                            <textarea rows="2" cols="3"placeholder="Hi, I love your book because!!!" class="form-control box-line" id ="message"></textarea>
+                            <textarea rows="2" cols="3" name = "message" id = "message" ng-required = 'user.message.required' ng-model = "message" 
+                            ng-minlength = '{{user.message.minlength}}' ng-maxlength = '{{user.message.maxlength}}' placeholder="Hi, I love your book because!!!" class="form-control box-line"></textarea>
+                             <span class = "error-highlighter" ng-show="form.message.$dirty && form.message.$error.required">Please enter some message!</span>
+                             <div>
+                                  <span class = "error-highlighter" ng-show="form.message.$error.minlength">Message cannot be less than 10 characters</span>
+                             </div>
+                                 <div>
+                                       <span class = "error-highlighter" ng-show="form.message.$error.maxlength">Message has to under 300 characters</span>
+                                 </div>
                         </div>
                         <div class="form-group row">
                             <div class="sbt-btn col-md-9 col-md-offset-7">

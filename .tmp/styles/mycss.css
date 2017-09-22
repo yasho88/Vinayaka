@@ -267,3 +267,11 @@ border-right: 0px;
 a:hover { 
     background-color: yellow;
 }
+.ng-dirty.ng-invalid {
+     border-color: red;
+}
+
+.error-highlighter {
+     color: red;
+     font-size: 10px;
+}

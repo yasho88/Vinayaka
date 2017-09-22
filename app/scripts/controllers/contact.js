@@ -12,6 +12,21 @@
 vapp.controller('ContactCtrl', ['$http', '$scope','$window',
 		function ($http,$scope,$window){
 
+        $scope.user = {
+                    name: {
+                         required: true,
+                         minlength: 5,
+                         maxlength: 25
+                    },
+                    message: {
+                        required: true,
+                         minlength: 10,
+                         maxlength: 300
+                    },
+                    email: {
+                        required: true
+                    }
+               };
           $scope.submit= function(){ 
             $http({
             method: 'POST',
