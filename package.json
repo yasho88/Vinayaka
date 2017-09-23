@@ -36,5 +36,9 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "gzippo": "^0.2.0"
   }
 }
