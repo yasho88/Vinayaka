@@ -117,21 +117,6 @@ background-image: url('/images/VinaFinal.JPG');
         width: 90%;
         margin-top: 30%;
     }
-    .wrapper { height: 500px; margin-top: 12%; }
-    .nopadding { padding: 0; }
-    .wp3 { background: url('/images/vina.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
-
-    .iphone { width: 100%; background: #f3f5f8; float: left; height: 100%;  }
-
-.fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
-.responsive-services { position: relative; }
-.fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
-.responsive-services { position: relative; }
-.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
-#servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 20px; }
-    
-
 
  .contact-page{
 background-repeat: no-repeat;

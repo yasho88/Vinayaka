@@ -27,11 +27,18 @@ vapp.controller('ContactCtrl', ['$http', '$scope','$window',
                         required: true
                     }
                };
+         
           $scope.submit= function(){ 
+              $scope.objUser={
+            name: $scope.name,
+            email: $scope.email,
+            message: $scope.message
+         };
             $http({
             method: 'POST',
-            url: './scriptphp/action.php',
-            headers: { 'Content-Type': 'application/json' }
+            url: '/scriptphp/action.php',
+            headers: { 'Content-Type': 'application/json'},
+            data: JSON.stringify($scope.objUser)
         })
         .then(function(data,status) {
            if (data.success) {
