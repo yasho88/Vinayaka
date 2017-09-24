@@ -43,8 +43,7 @@
   },
 
 "scripts": {  
-"start": "grunt serve", 
-"postinstall": "bower install && npm install && grunt build" 
+"start": "grunt serve"
 }
 
 }
