@@ -35,10 +35,17 @@
     "time-grunt": "^1.0.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "5.4.1"
   },
   "dependencies": {
     "express": "^4.15.4",
     "gzippo": "^0.2.0"
-  }
+  },
+
+"scripts": {  
+"start": "grunt serve", 
+"postinstall": "bower install && npm install && grunt build" 
 }
+
+}
+
